@@ -2,13 +2,16 @@ import { FunctionComponent } from 'react';
 import { Container, Links, Right, Text } from './styles';
 
 import { IoIosMail, IoLogoGithub } from 'react-icons/io';
-import { SiAnilist } from 'react-icons/si';
+import { SiAnilist, SiKofi } from 'react-icons/si';
+import WavingHand from './wavingHand';
 interface TopComponentProps {}
 
 const TopComponent: FunctionComponent<TopComponentProps> = () => {
   return (
     <Container>
-      <Text>Hi, i'm Tommy 👋</Text>
+      <Text>
+        Hi, i'm Tommy <WavingHand />
+      </Text>
       <Links>
         <a
           href="https://github.com/tdanks2000"
@@ -25,6 +28,13 @@ const TopComponent: FunctionComponent<TopComponentProps> = () => {
             target="_blank"
           >
             <SiAnilist />
+          </a>
+
+          <a
+            href="https://ko-fi.com/tdanks2000"
+            target="_blank"
+          >
+            <SiKofi />
           </a>
         </Right>
       </Links>

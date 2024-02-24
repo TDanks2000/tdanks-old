@@ -42,4 +42,5 @@ export const Right = styled.div`
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  gap: 15px;
 `;
