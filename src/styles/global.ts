@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
       background-color: ${({ theme }) => theme.base.bg};
       color: ${({ theme }) => theme.text.primary};
       font-family: 'Open Sans', sans-serif;
+      overflow: hidden;
     }
     body { 
       display: flex;

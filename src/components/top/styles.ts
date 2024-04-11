@@ -4,6 +4,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  position: relative;
+  z-index: 5;
 `;
 
 export const Text = styled.h1`
@@ -43,4 +45,12 @@ export const Right = styled.div`
   justify-content: flex-end;
   align-items: center;
   gap: 15px;
+`;
+
+export const BG = styled.div`
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
 `;
