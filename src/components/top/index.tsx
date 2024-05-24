@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'react';
-import { BG, Container, Links, Right, Text } from './styles';
+import { BG, Container, Img, Links, Right, Text } from './styles';
 
 import { IoIosMail, IoLogoGithub } from 'react-icons/io';
 import { SiAnilist, SiKofi } from 'react-icons/si';
@@ -29,19 +29,26 @@ const TopComponent: FunctionComponent<TopComponentProps> = () => {
           <a href="mailto:tommydanks2000@outlook.com">
             <IoIosMail />
           </a>
+
+          <a
+            href="https://anilist.co/user/TDanks2000/"
+            target="_blank"
+          >
+            <SiAnilist />
+          </a>
+
+          <a
+            href="https://ko-fi.com/tdanks2000"
+            target="_blank"
+          >
+            <SiKofi />
+          </a>
           <Right>
             <a
-              href="https://anilist.co/user/TDanks2000/"
+              href="https://gamesrecaped.tdanks.com"
               target="_blank"
             >
-              <SiAnilist />
-            </a>
-
-            <a
-              href="https://ko-fi.com/tdanks2000"
-              target="_blank"
-            >
-              <SiKofi />
+              <Img src="https://gamesrecaped.tdanks.com/logo.png" />
             </a>
           </Right>
         </Links>

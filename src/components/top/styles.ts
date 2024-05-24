@@ -54,3 +54,10 @@ export const BG = styled.div`
   inset: 0;
   z-index: 1;
 `;
+
+export const Img = styled.img`
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+`;
