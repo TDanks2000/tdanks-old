@@ -45,7 +45,7 @@ const TopComponent: FunctionComponent<TopComponentProps> = () => {
           </a>
           <Right>
             <a
-              href="https://gamesrecaped.tdanks.com"
+              href="https://recap.games"
               target="_blank"
             >
               <Img src="https://gamesrecaped.tdanks.com/logo.png" />
